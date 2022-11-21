@@ -1,0 +1,18 @@
+// OpcClientRSMaster.idl : IDL source for OpcClientRSMaster
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (OpcClientRSMaster.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(A47D865E-9E2A-455F-A11A-CC450E63A4C8),
+	version(1.0),
+	helpstring("OpcClientRSMaster 1.0 Type Library")
+]
+library OpcClientRSMasterLib
+{
+	importlib("stdole2.tlb");
+};
